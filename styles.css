@@ -8,8 +8,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .topnav-container {
-
+   display: flex;
+   justify-content: space-between;
+   height: 30px;
 }
+
 .navigation-bar {
    border: 1px solid lightgray;
    height: 35px;
@@ -21,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
    padding: 0px 40px;
 }
 
-.social-icons i{
+.social-icons {
    display: inline-block;
    width: 40px;
    height: 40px;
@@ -51,29 +54,29 @@ body{
 
 .search {
   width: 100%;
-  position: relative;
+  position: relative; 
   display: flex;
 }
 
-.searchTerm {
+.search-text {
   width: 100%;
-  border: 3px solid #808080;
+  border: 2px solid #808080;
   border-right: none;
   padding: 5px;
-  height: 20px;
+  height: 14px;
   border-radius: 5px 0 0 5px;
   outline: none;
   color: #9DBFAF;
 }
 
-.searchTerm:focus{
+.search-text:focus{
   color: #808080;
 }
 
-.searchButton {
+.search-button {
   width: 40px;
-  height: 36px;
-  border: 1px solid #808080;
+  height: 28px;
+  border: .5px solid #808080;
   background: #808080;
   text-align: center;
   color: #fff;
@@ -84,11 +87,8 @@ body{
 
 /*Resize the wrap to see the search bar change!*/
 .wrap{
-  width: 30%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 17%;
+  padding: 4px;
 }
 .nav-link {
    width: 100%;
@@ -141,4 +141,23 @@ div.pic-collage {
  a:hover {
    color: #fadbd8;
    text-decoration: none;
+ }
+ .container {
+   position: relative;
+   font-family: Arial;
+ }
+ 
+ .text-block {
+   position: absolute;
+   display: flex;
+   align-items: center;
+   height: 40px;
+   bottom: 5px;
+   left: 75px;
+   color: white;
+   padding-left: 20px;
+   padding-right: 20px;
+   background-color: darkgray;
+   opacity: 0.8;
+   border-radius: 20%;
  }
