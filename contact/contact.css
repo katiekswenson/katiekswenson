@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    font-family: 'News Cycle', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'News Cycle', sans-serif;
+}
+
+.topnav-container {
+   display: flex;
+   justify-content: space-between;
+   height: 30px;
+}
+
+.navigation-bar {
+   border: 1px solid lightgray;
+   height: 35px;
+   background-color: white;
+   color: #000000;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 0px 40px;
+}
+
+.social-icons i{
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   padding: 10px;
+}
+.social-icons:hover {
+   opacity: 0.7;
+   color: #fadbd8;
+}
+
+.logo img {
+   /* width: 350px; */
+   height: 80px;
+}
+.center-logo {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 26%;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative; 
+  display: flex;
+}
+
+.search-text {
+  width: 100%;
+  border: 2px solid #808080;
+  border-right: none;
+  padding: 5px;
+  height: 14px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.search-text:focus{
+  color: #808080;
+}
+
+.search-button {
+  width: 40px;
+  height: 28px;
+  border: .5px solid #808080;
+  background: #808080;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 17%;
+  padding: 4px;
+}
+.nav-link {
+   width: 100%;
+   position: sticky;
+   text-align: center;
+}
+
+.nav-link a {
+   font-family: 'News Cycle', sans-serif;
+   letter-spacing: 1px;
+   color: #000000;
+   text-decoration: none;
+   transition: 0.5s;
+   text-align: center;
+}
+
+.nav-link a:hover {
+   color: #fadbd8;
+   letter-spacing: 2px;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #fadbd8;
+  color: darkgrey;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #fadbd8;
+  border: 1px solid darkgrey;
+}
+
+h3 {
+   text-align: center;
+}
+.form-container {
+  border-radius: 5px;
+  background-color: darkgrey;
+  padding: 20px;
+  width: 500px;
+  height: 480px;
+  display: block;
+  margin: auto;
+}
+.contact-form {
+   height: 600px !important;
+   width: 400px;
+   color: #fadbd8;
+}

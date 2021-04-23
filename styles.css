@@ -24,10 +24,10 @@ h1, h2, h3, h4, h5, h6 {
    padding: 0px 40px;
 }
 
-.social-icons {
+.social-icons i{
    display: inline-block;
-   width: 40px;
-   height: 40px;
+   width: 50px;
+   height: 50px;
    padding: 10px;
 }
 .social-icons:hover {
@@ -109,6 +109,18 @@ body{
    color: #fadbd8;
    letter-spacing: 2px;
 }
+.main-pic img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  height: 800px;
+  float: center;
+  border: 1px solid darkgrey;
+  border-radius: 4px;
+  padding: 4px;
+}
+
 
 div.pic-collage {
    display: flex;
@@ -131,12 +143,12 @@ div.pic-collage {
    border-radius: 25px;
  }
  a:link {
-   color: #000000;
    text-decoration: none;
+   color: #ffffff;
  }
  a:visited {
-    color: #000000;
    text-decoration: none; 
+   color: #ffffff;
  }
  a:hover {
    color: #fadbd8;
@@ -144,20 +156,32 @@ div.pic-collage {
  }
  .container {
    position: relative;
-   font-family: Arial;
+   font-family: 'News Cycle' sans-serif;
  }
  
  .text-block {
-   position: absolute;
+   position: relative;
    display: flex;
    align-items: center;
+   text-align: center;
    height: 40px;
-   bottom: 5px;
-   left: 75px;
+   top: -13px;
+   width: 50%;
    color: white;
    padding-left: 20px;
    padding-right: 20px;
    background-color: darkgray;
-   opacity: 0.8;
-   border-radius: 20%;
+   opacity: .8;
+   border-radius: 0%;
+ }
+
+ .footer {
+   font-size: 10px;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: darkgrey;
+   color: white;
+   text-align: center;
  }

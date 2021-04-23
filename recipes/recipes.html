@@ -5,7 +5,7 @@
     <!-- TAB - LOGO ICON -->
     <meta charset="utf-8" />
     <title>Katie K Swenson</title>
-    <link rel="icon" href="assets/K tab Logo.jpg" type="image/x-icon">
+    <link rel="icon" href="../assets/K tab Logo.jpg" type="image/x-icon">
     <meta name="viewport" content="width=device-width initial-scale=1">
 
     <link href="https://fonts.googleapis.com/css2?family=News+Cycle&display=swap" rel="stylesheet">
@@ -13,50 +13,54 @@
     <link href="https://fonts.googleapis.com/css2?family=News+Cycle&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="recipes.css">
 </head>
 
 <body>
     <!-- TOP NAVIGATION CONTAINER -->
     <div class="topnav-container">
-        <div class="social-icons">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-pinterest-p"></i>
+        <div>
+            <i class="fab fa-facebook-f social-icons"></i>
+            <i class="fab fa-instagram social-icons"></i>
+            <i class="fab fa-twitter social-icons"></i>
+            <i class="fab fa-pinterest-p social-icons"></i>
         </div>
-        <div class="search">
-            <input type="text" placeholder="Search...">
+        <div class="wrap">
+            <div class="search">
+                <input type="text" class="search-text" placeholder="Search...">
+                <button type="submit" class="search-button">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
         </div>
     </div>
 
     <!-- NAVIGATION MENU-->
 
     <div class="center-logo">
-        <img src="assets/KSK Logo.png" class="logo" alt="logo">
+        <img src="../assets/KSK Logo.png" class="logo" alt="logo">
     </div>
     <div class="navigation-bar">
         <div class="nav-link nav-border">
-            <a href="home.html">HOME</a>
+            <a href="../home/home.html">HOME</a>
         </div>
 
         <div class="nav-link nav-border">
-            <a href="about.html">ABOUT</a>
+            <a href="../about/about.html">ABOUT</a>
         </div>
 
         <div class="nav-link nav-border">
-            <a href="recipes.html">RECIPES</a>
+            <a href="../recipes/recipes.html">RECIPES</a>
         </div>
 
         <div class="nav-link nav-border">
-            <a href="lifestyle.html">LIFESTYLE</a>
+            <a href="../lifestyle/lifestyle.html">LIFESTYLE</a>
         </div>
 
-        <div class="nav-link">
-            <a href="contact.html">CONTACT</a>
+        <div class="nav-link nav-border">
+            <a href="../contact/contact.html">CONTACT</a>
         </div>
     </div>
-
 </body>
 
 </html>
